@@ -38,7 +38,7 @@ function MovieCard({movie,movieName,toggleFavorite,isFavorite,overview,rating,re
         ? "🗑 Remove"
         : isFavorite
         ? "❤️ Added"
-        : "🤍 Add Favorite"
+        : "🤍 Add to Movie Journal"
 }
             </Button>
         
