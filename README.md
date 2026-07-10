@@ -1,16 +1,104 @@
-# React + Vite
+# 🎬 Movie Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Movie Journal that helps users discover trending movies, search by title, save favorites, and maintain personal notes for each favorite movie. Movie data is powered by the TMDB API, while favorites and notes are stored locally using Local Storage.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://movie-journal-gold.vercel.app/
 
-## React Compiler
+## 📸 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎥 Browse trending movies
+- 🔍 Search movies by title
+- 📄 View detailed movie information
+- ❤️ Add and remove favorite movies
+- 📝 Write and save personal notes for favorite movies
+- 💾 Persistent favorites and notes using Local Storage
+- 📑 Pagination for trending movies
+- 📱 Responsive user interface
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- React Router
+- Bootstrap
+- CSS
+- TMDB API
+- Local Storage
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+├── Home.jsx
+├── Favorites.jsx
+├── MovieCard.jsx
+├── MovieDetails.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/KaviyaSM/Movie-Journal.git
+```
+
+Go to the project folder:
+
+```bash
+cd Movie-Journal
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the project root and add your TMDB API key:
+
+```env
+VITE_TMDB_API_KEY=your_tmdb_api_key
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:5173
+```
+
+## 🌐 API Used
+
+This project uses the **The Movie Database (TMDB) API**.
+
+https://developer.themoviedb.org/
+
+## 💡 Future Improvements
+
+- User authentication
+- Cloud database for notes
+- Watchlist feature
+- Movie recommendations
+- Dark mode
+- Movie reviews and ratings
+
+## 👩‍💻 Author
+
+**Kaviya S**
+
+GitHub: https://github.com/KaviyaSM
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
