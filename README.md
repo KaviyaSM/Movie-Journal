@@ -11,7 +11,7 @@ A React-based Movie Journal that helps users discover trending movies, search by
 - 🎥 Browse trending movies
 - 🔍 Search movies by title
 - 📄 View detailed movie information
-- ❤️ Add and remove favorite movies
+- ❤️ Add and remove favorite movies from My Movie journal
 - 📝 Write and save personal notes for favorite movies
 - 💾 Persistent favorites and notes using Local Storage
 - 📑 Pagination for trending movies
