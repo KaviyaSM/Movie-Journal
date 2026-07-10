@@ -99,6 +99,3 @@ https://developer.themoviedb.org/
 
 GitHub: https://github.com/KaviyaSM
 
----
-
-⭐ If you found this project useful, consider giving it a star!
