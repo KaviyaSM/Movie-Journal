@@ -95,7 +95,7 @@ https://developer.themoviedb.org/
 
 ## 👩‍💻 Author
 
-**Kaviya S**
+**Kaviya S M**
 
 GitHub: https://github.com/KaviyaSM
 
